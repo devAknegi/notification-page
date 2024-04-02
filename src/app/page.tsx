@@ -23,7 +23,7 @@ export default function Home() {
           </div>
           <div className="absolute bottom-0 w-[450px] h-[220px] -m-10 bg-black blur-xl rounded-full"></div>
         </div>
-
+        
         <div className="mt-10">
           <button type="submit" className="border-gradient">
             Send Notification
