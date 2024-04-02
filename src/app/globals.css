@@ -31,3 +31,20 @@ body {
     text-wrap: balance;
   }
 }
+
+.border-gradient {
+  position: relative;
+  padding: 0.75rem 3rem;
+  background: linear-gradient(90deg, rgb(22, 12, 1) 0%, rgba(175,46,9,1) 27%, rgba(162,73,5,1) 54%, rgb(206, 124, 10) 69%, rgb(22, 12, 1) 100%);
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.border-gradient::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgb(49, 27, 2), rgba(161, 161, 5, 0.934)); 
+  z-index: -1;
+}
