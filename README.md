@@ -21,7 +21,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Deployed on Github-Pages
 
-[LIVE]()
+Click Here: [👉 LIVE 👈](https://notification-page-wine.vercel.app/)
 
 ## Documentation
 Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
